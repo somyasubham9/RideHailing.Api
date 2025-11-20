@@ -175,7 +175,3 @@ This project demonstrates mastery of:
 Backend Developer
 
 ---
-
-## ⭐ Star this repository if you find it helpful!
-
-*Built with ❤️ using Clean Architecture principles*
