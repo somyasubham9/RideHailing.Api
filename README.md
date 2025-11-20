@@ -169,16 +169,10 @@ This project demonstrates mastery of:
 
 ---
 
-## 📝 License
-
-MIT License - See [LICENSE](LICENSE) file for details
-
----
-
 ## 👨‍💻 Author
 
 **Somya Subham**  
-.NET Developer | Clean Architecture Enthusiast
+Backend Developer
 
 ---
 
