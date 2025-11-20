@@ -1,4 +1,4 @@
-# ?? RideHailing - Enterprise-Grade Microservices Backend
+# 🚖 RideHailing - Enterprise-Grade Microservices Backend
 
 [![.NET 8](https://img.shields.io/badge/.NET-8.0-purple)](https://dotnet.microsoft.com/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue)](https://www.postgresql.org/)
@@ -11,10 +11,10 @@
 
 ---
 
-## ??? Architectural Excellence
+## 🏗️ Architectural Excellence
 
 ### Clean Architecture Implementation
-Leveraging **Onion Architecture** principles with strict dependency inversion, ensuring maximum testability, maintainability, and framework independence. The domain layer remains pristine�completely agnostic to infrastructure concerns.
+Leveraging **Onion Architecture** principles with strict dependency inversion, ensuring maximum testability, maintainability, and framework independence. The domain layer remains pristine—completely agnostic to infrastructure concerns.
 
 ### Technology Stack
 
@@ -55,49 +55,49 @@ Leveraging **Onion Architecture** principles with strict dependency inversion, e
 
 ---
 
-## ?? Project Structure
+## 📁 Project Structure
 
 ```
 RideHailing/
-?
-??? RideHailing.Domain/               # ?? Core business logic (no dependencies)
-?   ??? Entities/                     # Rich domain entities with behavior
-?   ?   ??? BaseEntity.cs            # Audit fields (Id, CreatedAt, UpdatedAt)
-?   ?   ??? User.cs                  # Aggregate root with encapsulation
-?   ??? Enums/                        # Type-safe constants
-?       ??? UserRole.cs
-?
-??? RideHailing.Application/          # ?? Use cases & business orchestration
-?   ??? Interfaces/                   # Abstractions (Repository, Services)
-?       ??? IUserRepository.cs
-?       ??? IPasswordHasher.cs
-?
-??? RideHailing.Infrastructure/       # ?? External concerns implementation
-?   ??? Persistence/                  # EF Core DbContext, Migrations
-?   ?   ??? RideHailingDbContext.cs
-?   ??? Repositories/                 # Repository implementations
-?   ?   ??? UserRepository.cs
-?   ??? Security/                     # Authentication, Hashing
-?   ?   ??? PasswordHasher.cs
-?   ??? DependencyInjection.cs       # Service registration
-?
-??? RideHailing.Contracts/            # ?? DTOs (decoupled from domain)
-?   ??? Requests/                     # Inbound API models
-?   ?   ??? Auth/
-?   ?       ??? RegisterUserRequest.cs
-?   ??? Responses/                    # Outbound API models
-?       ??? Auth/
-?           ??? RegisterUserResponse.cs
-?
-??? RideHailing.Api/                  # ?? HTTP entry point
-    ??? Controllers/                  # RESTful endpoints
-    ??? Program.cs                    # Startup configuration
-    ??? appsettings.json             # Configuration
+│
+├── RideHailing.Domain/               # 🎯 Core business logic (no dependencies)
+│   ├── Entities/                     # Rich domain entities with behavior
+│   │   ├── BaseEntity.cs            # Audit fields (Id, CreatedAt, UpdatedAt)
+│   │   └── User.cs                  # Aggregate root with encapsulation
+│   └── Enums/                        # Type-safe constants
+│       └── UserRole.cs
+│
+├── RideHailing.Application/          # 📋 Use cases & business orchestration
+│   └── Interfaces/                   # Abstractions (Repository, Services)
+│       ├── IUserRepository.cs
+│       └── IPasswordHasher.cs
+│
+├── RideHailing.Infrastructure/       # 🔧 External concerns implementation
+│   ├── Persistence/                  # EF Core DbContext, Migrations
+│   │   └── RideHailingDbContext.cs
+│   ├── Repositories/                 # Repository implementations
+│   │   └── UserRepository.cs
+│   ├── Security/                     # Authentication, Hashing
+│   │   └── PasswordHasher.cs
+│   └── DependencyInjection.cs       # Service registration
+│
+├── RideHailing.Contracts/            # 📦 DTOs (decoupled from domain)
+│   ├── Requests/                     # Inbound API models
+│   │   └── Auth/
+│   │       └── RegisterUserRequest.cs
+│   └── Responses/                    # Outbound API models
+│       └── Auth/
+│           └── RegisterUserResponse.cs
+│
+└── RideHailing.Api/                  # 🌐 HTTP entry point
+    ├── Controllers/                  # RESTful endpoints
+    ├── Program.cs                    # Startup configuration
+    └── appsettings.json             # Configuration
 ```
 
 ---
 
-## ?? Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 - .NET 8 SDK
@@ -139,9 +139,9 @@ https://localhost:7XXX/swagger
 
 ---
 
-## ?? Current Progress
+## 📊 Current Progress
 
-### ? Completed (Sprint 1 - PBI #1)
+### ✅ Completed (Sprint 1 - PBI #1)
 - Domain entities (User, BaseEntity)
 - Repository pattern implementation
 - EF Core DbContext with Fluent API
@@ -149,17 +149,17 @@ https://localhost:7XXX/swagger
 - Clean Architecture foundation
 - DI configuration
 
-### ?? In Progress
+### 🔄 In Progress
 - User registration API endpoint
 - JWT authentication
 - Driver entity
 
-### ?? Upcoming (18 PBIs Total)
+### 📋 Upcoming (18 PBIs Total)
 See [Azure DevOps Board](link-to-board) for complete backlog
 
 ---
 
-## ?? Learning Outcomes
+## 🎓 Learning Outcomes
 
 This project demonstrates mastery of:
 - Clean Architecture & Separation of Concerns
@@ -172,19 +172,19 @@ This project demonstrates mastery of:
 
 ---
 
-## ?? License
+## 📝 License
 
 MIT License - See [LICENSE](LICENSE) file for details
 
 ---
 
-## ????? Author
+## 👨‍💻 Author
 
 **Somya Subham**  
 .NET Developer | Clean Architecture Enthusiast
 
 ---
 
-## ? Star this repository if you find it helpful!
+## ⭐ Star this repository if you find it helpful!
 
-*Built with ?? using Clean Architecture principles*
+*Built with ❤️ using Clean Architecture principles*
