@@ -154,9 +154,6 @@ https://localhost:7XXX/swagger
 - JWT authentication
 - Driver entity
 
-### 📋 Upcoming (18 PBIs Total)
-See [Azure DevOps Board](link-to-board) for complete backlog
-
 ---
 
 ## 🎓 Learning Outcomes
